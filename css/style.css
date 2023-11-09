@@ -7,18 +7,40 @@
 }
 
 header {
+  width: 1920px;
   background-color: #000;
+  box-shadow: 0 10px 0 #d9f743;
+  display: flex;
+  align-items: center;
+  position: fixed;
 }
 
-nav a {
+#menu {
+  padding-left: 1200px;
+  margin-left: 120px;
+}
+
+#menu a {
   color: #fff;
   font-size: 20px;
-  font-family: "ZELDA";
+  font-family: "ZELDA", sans-serif;
   font-weight: 400;
+  font-size: 90%;
   text-decoration: none;
+  padding-left: 20px;
 }
 
-.header-contact a img {
+.logo {
   width: 42px;
   height: 41px;
+}
+
+#header-contact {
+  margin-left: 80px;
+}
+
+.button-contact {
+  width: 38px;
+  height: 37px;
+  padding-right: 16px;
 }
