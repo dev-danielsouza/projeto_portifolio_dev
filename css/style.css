@@ -1,7 +1,24 @@
+@font-face {
+  font-family: "ZELDA";
+  src: url("assets/fonts/ZELDA Regular.otf") format("opentype"),
+    url("assets/fonts/ZELDA Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 header {
   background-color: #000;
 }
 
 nav a {
   color: #fff;
+  font-size: 20px;
+  font-family: "ZELDA";
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header-contact a img {
+  width: 42px;
+  height: 41px;
 }
