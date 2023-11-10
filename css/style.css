@@ -1,7 +1,5 @@
-@font-face {
-  font-family: "ZELDA";
-  src: url("assets/fonts/ZELDA Regular.otf") format("opentype"),
-    url("assets/fonts/ZELDA Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Timmana&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
 }
